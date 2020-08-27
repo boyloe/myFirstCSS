@@ -9,19 +9,20 @@ header {
     padding: 2rem;
 }
 
-main {
-    display:flex;
+main {    
     border-style: solid;
-    border-width:10px;
-    border-color:red;padding:2rem;
+    border-width: 10px;
+    border-color: red;
+    padding: 16px 60px;
 }
 
 footer {
-    display:flex;
+    display: flex;
     border-style: solid;
     border-width: 10px;
-    border-color: green
-    padding:2rem;
+    border-color: green;
+    padding: 32px 500px 32px 58px;
+    justify-content: left;
 }
 h1 {
     color: white;
@@ -52,4 +53,15 @@ button {
     border-radius: 5px;
     padding: 10px 16px;
     border-style: none;
+}
+
+h2 {
+    display: block;
+    background: black;
+    color: #dec60f;
+}
+
+main > section > div {
+    background: turquoise;
+    color: purple;
 }
