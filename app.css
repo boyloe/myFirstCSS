@@ -24,9 +24,13 @@ footer {
     padding:2rem;
 }
 h1 {
-    
-        display: inline;
-        padding-right: 550px      
+    color: white;
+    display: inline-block;
+    height: 39px;   
+    background: black;
+    text-align: right;  
+    position: relative;
+    right: 250px;   
 }
 
 li {
@@ -36,13 +40,16 @@ li {
 }
 
 header > ul {
-    display:flex;
+    display: flex;
+    position: relative;
+    left: 271px;
+    bottom: 15px;
 }
 
 
 button {
     background-color: orange;
     border-radius: 5px;
-    padding: 4px 19px;
+    padding: 10px 16px;
     border-style: none;
 }
