@@ -1,0 +1,48 @@
+
+
+header {
+    display: flex;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    justify-content: center;
+    padding: 2rem;
+}
+
+main {
+    display:flex;
+    border-style: solid;
+    border-width:10px;
+    border-color:red;padding:2rem;
+}
+
+footer {
+    display:flex;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green
+    padding:2rem;
+}
+h1 {
+    
+        display: inline;
+        padding-right: 550px      
+}
+
+li {
+    display: inline;
+    margin: 3px
+    
+}
+
+header > ul {
+    display:flex;
+}
+
+
+button {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 4px 19px;
+    border-style: none;
+}
